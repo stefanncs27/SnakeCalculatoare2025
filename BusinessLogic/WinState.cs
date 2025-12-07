@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SnakeCalculatoare2025.BusinessLogic
+{
+    class WinState
+    {
+        bool winState = false;
+
+        public void ComputeWinState(int currentSnakeLength, int playAreaSize) {
+            this.winState = currentSnakeLength >= playAreaSize;
+        }
+           
+        public bool GetWinState() {
+            return this.winState;
+        }
+    }
+}
