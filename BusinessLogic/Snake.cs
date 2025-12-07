@@ -83,7 +83,7 @@ namespace SnakeCalculatoare2025.BusinessLogic
 
         public void Draw(IScreen screen) {
             foreach (Position2D position in positions) {
-                screen.Write(position, "O", color);
+                screen.Write(position, "O", color);// Update snake rendering symbol in Draw method
             }
         }
 
