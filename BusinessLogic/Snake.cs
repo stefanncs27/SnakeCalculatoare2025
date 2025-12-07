@@ -13,7 +13,7 @@ namespace SnakeCalculatoare2025.BusinessLogic
         Queue<Position2D> positions;
         Position2D headPosition;
 
-        SnakeDirection initialDirection;
+        SnakeDirection initialDirection;//abcd
         int initialLength;
         Position2D initialPosition;
 
